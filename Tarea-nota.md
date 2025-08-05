@@ -12,6 +12,7 @@ Escribir "debes sacar", nota_necesaria, "en la nota 7 para aprobar con 3.0"
 Fin
 ```
 
-## Diagrama de flujo
+## Diagrama de flujo 
 
 ![Imagen_diagrama](<_Imagen Diagrama nota.drawio.png>)
+

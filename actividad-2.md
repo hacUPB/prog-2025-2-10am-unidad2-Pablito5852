@@ -20,7 +20,8 @@ Fin
 <img width="382" height="635" alt="Captura de pantalla 2025-07-31 104545" src="https://github.com/user-attachments/assets/87e4985a-1173-486b-ae4b-f0c5a9622413" />
 
 # Ejercicio 2
-<<<<<<< HEAD
+Construye un algoritmo que, al recibir como datos el ID del empleado y los seis primeros sueldos del año, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
+
 ## Solución 
 ```
 Inicio
@@ -33,9 +34,27 @@ Fin
 
 ### Diagrama de flujo
 ![Ejercicio 2](<Ejercicio 2.png>)
-=======
-Construye un algoritmo que, al recibir como datos el ID del empleado y los seis primeros sueldos del año, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
 
-## Solución 
->>>>>>> 518eadf95131c018a0a25247f09adbbf1ea8743c
 
+# Ejercicio 3
+Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
+
+|Variables| Tipo| Comentario|
+|---------|-----|----------|
+|Lapices  | Entrada| Cantidad de lapices|
+|precio  | Salida| Precio total de los lapices|
+|Valor_unidad| Intermedia | Valor unitario de cada lapiz|
+|85, 90 | Constantes| No cambian|
+
+## Pseudocodigo
+```
+Inicio
+Leer Lapices
+Si Lapices >= 1000:
+    Valor_unidad = 85
+Si no
+    Valor_unidad = 90
+Fin Si
+Precio = Lapices * Valor_unidad
+Escribir "El valor total es:", Precio
+Fin
