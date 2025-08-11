@@ -97,3 +97,34 @@ El director de una escuela está organizando un viaje de estudios, y requiere de
 |costo_total  | Salida| Costo total a pagar|
 |100_65$, 50-99_70$, 30-49_95$, 1-30_4000$(sin importar la cantidad de alumnos)| Constantes| cantidad de alumnos y costo por alumno según la cantidad|
 
+
+
+# Tarea
+
+## Pseudocodigo
+
+```
+Entrada de datos
+Leer fecha_dia, fecha_mes, fecha_año
+Leer nacimiento_dia, nacimiento_mes, nacimiento_año
+
+ Cálculo inicial de la edad
+edad = fecha_año - nacimiento_año
+
+ Ajuste si el cumpleaños aún no ha llegado este año
+Si (fecha_mes < nacimiento_mes) O (fecha_mes = nacimiento_mes Y fecha_dia < nacimiento_dia) Entonces
+    edad = edad - 1
+FinSi
+
+ Salida
+Mostrar "La edad es: ", edad
+
+FIN
+```
+## Diagrama
+
+![alt text](<Diagrama EDAD.drawio.png>)
+
+
+
+
