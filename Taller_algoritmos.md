@@ -27,7 +27,7 @@ INICIO
     DEFINIR altitud COMO REAL
     DEFINIR i COMO ENTERO
 
-    PARA i = 1 HASTA 6 HACER
+    PARA i = 0 HASTA 5 HACER
         ESCRIBIR "Ingrese altitud en el minuto ", (i*10)
         LEER altitud
         ESCRIBIR "Minuto ", (i*10), ": ", altitud, " metros"
